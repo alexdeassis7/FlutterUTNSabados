@@ -1,0 +1,20 @@
+  //Final & Const 
+ 
+  final nombre = 'Alex';
+  final IP = '1.152.12.12';
+  const PI = 3.1416;
+  
+  //calculo del radio de una circunferencia 
+  //radio = circunferencia / (2 * PI);
+  
+  const divisor = 2 * PI; 
+  
+  //la circunferencia es 15 
+  var radio = 15 / divisor ;
+  
+  print('Radio: ' + radio.toString());
+  
+  
+  
+  
+}

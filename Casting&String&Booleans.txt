@@ -1,0 +1,90 @@
+
+  
+//procedimiento MAIN (punto de inicio de ejecucion )
+void main() {
+  //comversion de Datos 
+  
+  double real = 1 ;
+  
+  
+  //comvierto de String a int 
+  
+  int uno = int.parse('1');
+ 
+  //comvierto de String a double 
+  double unoPuntoUno = double.parse('1.1');
+  
+  //comvierto de int a String 
+  String cadenaUno = uno.toString();
+  
+  //comvierto de double a String
+  
+  double pi = 3.141615;
+  
+  String cadenaPi = pi.toStringAsFixed(2);
+  
+  print(cadenaPi);
+  
+  //Tipos de datos String 
+  //String 
+  
+  var cadena1 = 'hola mundo';
+  var cadena2 = "hola mundo";
+  
+  
+  //usamos comillas dentro del String 
+  
+  var cadena3 = 'yo dije : \'Hola mundo\'';
+  
+  print(cadena1);
+  print(cadena2);
+  print(cadena3);
+  
+  //concatenamos Strings
+  
+  var string1= 'Hola'
+    ' Mundo';
+  
+  print(string1);
+  
+  //otra manera seria la siguiente 
+  var string2 = 'Hola';
+  var string3 = 'Mundo';
+  
+  print(string2 + string3);
+  // y si queremos utilizar expresiones en String 
+  //utilizamos los templates Literales
+  
+  var edad = 30 ; 
+  String frase = 'Mi Edad es ${edad}';
+  
+  print (frase);
+  //evaluacion de expresines 
+  
+  print('mi saludo inicial: ${string2 + string3}' );
+  
+  
+  print('2 + 2 = ${2+2}');
+  
+        //Booleans 
+  
+  
+  bool variable ;
+  print(variable);
+  
+  bool existe = false ;
+if (existe ){
+    print('existe es TRUE');
+}  else{
+    print('existe No es TRUE');
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

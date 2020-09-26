@@ -1,0 +1,42 @@
+
+//procedimiento MAIN (punto de inicio de ejecucion )
+void main() {
+  
+  print('Hello World Dart');
+  
+  //Soy un comentario de linea 
+  
+  /*Soy un comentario de Bloque*/
+  
+  //Variables 
+  //Fuertemente tipado 
+  //todas las variable por defecto son objetos y extienden
+  //de la clase Object 
+  //si no le asignamos valor inicial por defecto es null
+  
+  var nombre;
+  var apellido = "De Assis";
+  nombre = 'Alejo';
+  print(nombre);
+  print(apellido);
+  
+  //modificador de visibilidad private 
+  var _soyUnaVariablePrivate ;
+  
+  //invocamos al metodo validador 
+  conocerTipo(nombre);
+  nombre = 1215 ;
+  conocerTipo(nombre);
+  
+}
+
+//Metodo validador 
+conocerTipo(dynamic variable){
+  
+  //valido el tipo de dato 
+  if(variable is String)
+      print('nombre es de tipo String ');
+  else
+    print('nombre NO es String');
+    
+}

@@ -1,0 +1,30 @@
+  //tipos Numbers 
+  //int , double (ambos vienen heredados del tipo 'num')
+ 
+  //utilizamos el tipo inferido 
+  //int
+  //var numero = 1 ;
+  int numero = 1;
+  
+  
+  //double 
+  //var numero2 = 1.1;
+  double numero2 = 1.1;
+  double numero3 = 1.6;
+  
+  print(numero);
+  print(numero2);
+  print(numero3);
+  
+  //NUM 
+  //nuem es generico a los numero int y double 
+  num z = -1;
+  //utilizamos abs() para ver el valor absoluto 
+  print(z.abs());
+  //funcion ceil 
+  print(numero2.ceil());
+  //funcion floor()
+  print(numero3.floor());
+  
+  //dart lo comvierete a un 1.0
+  //double real = 1;
